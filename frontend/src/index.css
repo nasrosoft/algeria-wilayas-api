@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font: 700 6rem/1 "Signika", sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+#map {
+  height: 100vh;
+}
+.leaflet-popup-content {
+  margin: 3px 3px 5px 3px !important;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 0.285714rem !important;
+}
+
+img {
+  transition: 0.3s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+.card {
+  overflow: hidden;
+}
+.card .content {
+  position: relative;
+  z-index: 2 !important;
+  background-color: white !important;
+}
+span {
+  color: #2f3542 !important;
+}
+
+.marker {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.marker.visible {
+  opacity: 1;
+}
+.population {
+  margin-top: 5px !important;
+  margin-left: 1px !important;
+}
+
+.leaflet-popup-content-wrapper {
+  min-width: 273px !important;
+  min-height: 309px !important;
+}
+.fade-in {
+  animation: fadeIn ease 2s;
+}
+
+/* @keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+} */
+
+.leaflet-popup.fade-in {
+  animation: fadeIn ease 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px); /* Optional, adds a slight movement */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
