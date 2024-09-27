@@ -2,6 +2,7 @@
   "name": "algeria-wilayas",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nasrosoft.github.io/algeria-wilayas-api",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
     "@testing-library/jest-dom": "^5.17.0",
