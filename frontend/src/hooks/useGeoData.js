@@ -3,13 +3,15 @@ import axios from "axios"
 
 const useGeoData = (imagePath) => {
   const [geoData, setGeoData] = useState(null)
-  const [ loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
 
   useEffect(() => {
     const fetchGeoData = async () => {
       try {
-        const response = await axios.get(`http://localhost:3001/algeria`)
+        const response = await axios.get(
+          `https://algeria-wilayas-api.onrender.com/algeria`
+        )
 
         setGeoData(response.data)
         setLoading(false)

@@ -11,7 +11,9 @@ const useFilteredData = (searchTermLower) => {
       setLoading(true)
       setError(null) // Clear any previous errors
       try {
-        const { data } = await axios.get(`http://localhost:3001/wilayas`)
+        const { data } = await axios.get(
+          `https://algeria-wilayas-api.onrender.com/wilayas`
+        )
 
         const filteredData = data.filter((item) =>
           ["code", "wilaya", "tamazight", "ar"].some((key) =>
