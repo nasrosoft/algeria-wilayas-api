@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/algeria-wilayas-api/static/css/main.069b565f.css",
-    "main.js": "/algeria-wilayas-api/static/js/main.a9e6ff38.js",
+    "main.js": "/algeria-wilayas-api/static/js/main.7c5fbd27.js",
     "static/js/453.f81f26f8.chunk.js": "/algeria-wilayas-api/static/js/453.f81f26f8.chunk.js",
     "static/media/brand-icons.svg": "/algeria-wilayas-api/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/algeria-wilayas-api/static/media/icons.62d9dae4e0040e81c980.svg",
@@ -21,11 +21,11 @@
     "static/media/outline-icons.woff2": "/algeria-wilayas-api/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/algeria-wilayas-api/index.html",
     "main.069b565f.css.map": "/algeria-wilayas-api/static/css/main.069b565f.css.map",
-    "main.a9e6ff38.js.map": "/algeria-wilayas-api/static/js/main.a9e6ff38.js.map",
+    "main.7c5fbd27.js.map": "/algeria-wilayas-api/static/js/main.7c5fbd27.js.map",
     "453.f81f26f8.chunk.js.map": "/algeria-wilayas-api/static/js/453.f81f26f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.069b565f.css",
-    "static/js/main.a9e6ff38.js"
+    "static/js/main.7c5fbd27.js"
   ]
 }
