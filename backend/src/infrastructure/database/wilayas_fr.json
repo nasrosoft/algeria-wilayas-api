@@ -1487,7 +1487,7 @@
     "ar": "البليدة",
     "tamazight": "ⴱⵍⵉⴷⴰ",
     "center": [36.5085, 2.5626],
-    "zoom": 10
+    "zoom": 9
   },
   {
     "commune": "CHEBLI",
@@ -1617,7 +1617,7 @@
     "ar": "البويرة",
     "tamazight": "ⴱⵓⵢⵉⵔⴰ",
     "center": [36.1778, 3.7148],
-    "zoom": 10
+    "zoom": 9
   },
   {
     "commune": "EL ASNAM",
@@ -2057,7 +2057,7 @@
     "ar": "تلمسان",
     "tamazight": "ⵜⵍⴻⵎⵙⴰⵏ",
     "center": [34.9422, -1.6837],
-    "zoom": 10
+    "zoom": 9
   },
   {
     "commune": "BENI MESTER",
@@ -2542,7 +2542,7 @@
     "ar": "تيزي وزو",
     "tamazight": "ⵜⵉⵣⵉ ⵓⵣⵣⵓ",
     "center": [36.6904, 3.9441],
-    "zoom": 10
+    "zoom": 9
   },
   {
     "commune": "AIN-EL-HAMMAM",
@@ -2882,7 +2882,7 @@
     "ar": "الجزائر",
     "tamazight": "y",
     "center": [36.7537, 2.8255],
-    "zoom": 11
+    "zoom": 9
   },
   {
     "commune": "SIDI M'HAMED",
@@ -3357,7 +3357,7 @@
     "ar": "جيجل",
     "tamazight": "ⵊⵉⵊⴻⵍ",
     "center": [36.6684, 5.658],
-    "zoom": 10
+    "zoom": 9
   },
   {
     "commune": "ERRAGUENE SOUISSI",
@@ -3892,7 +3892,7 @@
     "ar": "سكيكدة",
     "tamazight": "ⵙⴽⵉⴽⴷⴰ",
     "center": [36.8851, 6.6495],
-    "zoom": 10
+    "zoom": 9
   },
   {
     "commune": "AIN ZOUIT",
@@ -4087,7 +4087,7 @@
     "ar": " سيدي بلعباس",
     "tamazight": "ⵙⵉⴷⵉ ⴱⵍⵄⴱⴱⴰⵙ",
     "center": [35.1278, -0.9256],
-    "zoom": 10
+    "zoom": 9
   },
   {
     "commune": "TESSALA",
@@ -4352,7 +4352,7 @@
     "ar": "عنابة",
     "tamazight": "ⵄⵏⵏⴰⴱⴰ",
     "center": [36.8467, 7.4432],
-    "zoom": 10
+    "zoom": 9
   },
   {
     "commune": "BERRAHAL",
@@ -4417,7 +4417,7 @@
     "ar": "قالمة",
     "tamazight": "ⴳⵓⴻⵍⵎⴰ",
     "center": [36.4113, 6.9695],
-    "zoom": 10
+    "zoom": 9
   },
   {
     "commune": "NECHMAYA",
@@ -4592,7 +4592,7 @@
     "ar": "قسنطينة",
     "tamazight": "ⵇⵓⵙⵟⴰⵏⵟⵉⵏ",
     "center": [36.3903, 6.232],
-    "zoom": 10
+    "zoom": 9
   },
   {
     "commune": "HAMMA BOUZIANE",
@@ -4657,7 +4657,7 @@
     "ar": "المدية",
     "tamazight": "ⵎⵉⴷⵢⴰ",
     "center": [36.1756, 2.4046],
-    "zoom": 10
+    "zoom": 9
   },
   {
     "commune": "OUZERA",
@@ -4982,7 +4982,7 @@
     "ar": "مستغانم",
     "tamazight": "ⵎⵓⵙⵜⴰⵖⴰⵏⴻⵎ",
     "center": [36.0113, -0.0082],
-    "zoom": 10
+    "zoom": 9
   },
   {
     "commune": "SAYADA",
@@ -5387,7 +5387,7 @@
     "ar": "معسكر",
     "tamazight": "ⵎⴰⵙⴽⴰⵔⴰ",
     "center": [35.4148, -0.0714],
-    "zoom": 10
+    "zoom": 9
   },
   {
     "commune": "BOUHANIFIA",
@@ -5752,7 +5752,7 @@
     "ar": "وهران",
     "tamazight": "ⵓⵔⴰⵏ",
     "center": [35.5233, -1.1343],
-    "zoom": 10
+    "zoom": 9
   },
   {
     "commune": "GDYEL",
@@ -6012,7 +6012,7 @@
     "ar": "برج بوعريريج",
     "tamazight": "ⴱⵓⵔⵊ ⴱⵓ ⴰⵔⵔⵔⵉⴷⵊ",
     "center": [36.0466, 4.652],
-    "zoom": 12
+    "zoom": 9
   },
   {
     "commune": "RAS EL OUED",
@@ -6352,7 +6352,7 @@
     "ar": "الطارف",
     "tamazight": "ⵉⵍ ⵜⴰⵔⴼ",
     "center": [36.696, 7.7824],
-    "zoom": 10
+    "zoom": 9
   },
   {
     "commune": "BOUHADJAR",
@@ -6497,7 +6497,7 @@
     "ar": "تيسمسيلت",
     "tamazight": "ⵜⵉⵙⵎⵙⵉⵍⵜ",
     "center": [35.7866, 1.545],
-    "zoom": 10
+    "zoom": 9
   },
   {
     "commune": "BORDJ BOUNAAMA",
@@ -6882,7 +6882,7 @@
     "ar": "سوق أهراس",
     "tamazight": "ⵙⵓⵇ ⴰⵀⵔⴰⵙ",
     "center": [36.1856, 7.4199],
-    "zoom": 10
+    "zoom": 9
   },
   {
     "commune": "SEDRATA",
@@ -7017,7 +7017,7 @@
     "ar": "تيبازة",
     "tamazight": "ⵜⵉⵒⴰⵣⴰ",
     "center": [36.5229, 1.8993],
-    "zoom": 10
+    "zoom": 9
   },
   {
     "commune": "MENACEUR",
@@ -7162,7 +7162,7 @@
     "ar": "ميلة",
     "tamazight": "ⵎⵉⵍⴰ",
     "center": [36.2088, 5.9766],
-    "zoom": 10
+    "zoom": 9
   },
   {
     "commune": "FERDJIOUA",
@@ -7327,7 +7327,7 @@
     "ar": "عين الدفلى",
     "tamazight": "ⵄⵉⵏⴷⴻⴼⵍⴰ",
     "center": [36.1467, 2.0435],
-    "zoom": 10
+    "zoom": 9
   },
   {
     "commune": "MILIANA",
@@ -7797,7 +7797,7 @@
     "ar": "غليزان",
     "tamazight": "ⵔⵉⵍⵉⵣⴰⵏⴻ",
     "center": [35.7164, 0.3419],
-    "zoom": 10
+    "zoom": 9
   },
   {
     "commune": "OUED-RHIOU",
