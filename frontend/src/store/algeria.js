@@ -7,6 +7,7 @@ const initialState = {
   loading: false,
   municipalities: [],
   visible: false,
+  visibleBtn: false,
   markerPosition: [],
   areaInSquare: 0,
   markerState: null,
@@ -27,6 +28,9 @@ const algeria = createSlice({
     },
     setVisible: (state, action) => {
       state.visible = action.payload
+    },
+    setVisibleBtn: (state, action) => {
+      state.visibleBtn = action.payload
     },
     setMunicipalities: (state, action) => {
       state.municipalities = action.payload
@@ -50,6 +54,7 @@ export const {
   setUpdateValue,
   setMsgError,
   setVisible,
+  setVisibleBtn,
   setMarker,
   setMarkerPosition,
   setAreaInSquare,

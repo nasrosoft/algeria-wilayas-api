@@ -9,15 +9,18 @@ const getMunicipalities = async (
 ) => {
   try {
     const { data: wilayasData } = await axios.get(
-      `https://algeria-wilayas-api.onrender.com/wilayas`
+      `http://localhost:3001/wilayas`
     )
 
     // Find the matching layer based on searchTerm
+
     const foundLayer = featureLayers.current.find((layer) => {
-      const { code, wilayaNameEn } = layer.feature.properties
+      console.log("layer.feature.properties", layer.feature.properties)
+      const { code, wilayaNameEn, alt_name } = layer.feature.properties
       return (
         code.includes(searchTerm) ||
-        wilayaNameEn.toLowerCase().includes(searchTerm.toLowerCase())
+        wilayaNameEn.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        alt_name.toLowerCase().includes(searchTerm.toLowerCase())
       )
     })
 

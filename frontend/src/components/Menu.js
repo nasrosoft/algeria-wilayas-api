@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { SemanticToastContainer } from "react-semantic-toasts"
-import { setUpdateValue, setMsgError, setSubMenu } from "../store/algeria"
+import { setUpdateValue, setMsgError, setVisibleBtn } from "../store/algeria"
 
 import {
   Segment,
@@ -28,13 +28,14 @@ import {
 } from "../styles/styles"
 
 const Menu = ({ onFlyTo, onFlyToInit }) => {
-  const [visible, setVisible] = useState(false)
   const [loading, setLoading] = useState(false)
 
   const dispatch = useDispatch()
   const msgError = useSelector((state) => state.algeria.msgError)
   const searchTerm = useSelector((state) => state.algeria.inputValue)
   const municipalities = useSelector((state) => state.algeria.municipalities)
+  const visible = useSelector((state) => state.algeria.visibleBtn)
+  
 
   useEffect(() => {
     if (searchTerm !== "" && municipalities) {
@@ -43,7 +44,7 @@ const Menu = ({ onFlyTo, onFlyToInit }) => {
   }, [loading])
 
   // Toggle visibility of the menu
-  const toggleVisibility = () => setVisible((prevVisible) => !prevVisible)
+  const toggleVisibility = () => dispatch(setVisibleBtn(!visible))
 
   // Handle input change and update the state
   const handleChange = (e) => {

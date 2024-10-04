@@ -34,6 +34,7 @@ const SubMenu = ({ renderMunicipalities }) => {
   const dispatch = useDispatch()
   const subMenuVisible = useSelector((state) => state.algeria.subMenu)
   const inputValue = useSelector((state) => state.algeria.inputValue)
+  const visible = useSelector((state) => state.algeria.visibleBtn)
 
   const loading = useSelector((state) => state.algeria.loading)
 
@@ -50,7 +51,7 @@ const SubMenu = ({ renderMunicipalities }) => {
     } else {
       dispatch(setSubMenu(true))
       // Simulate a loading delay
-      const timer = setTimeout(() =>   dispatch(setLoading((false))), 1000) // 1 second delay
+      const timer = setTimeout(() => dispatch(setLoading(false)), 1000) // 1 second delay
       return () => clearTimeout(timer) // Cleanup on unmount
     }
   }, [])
@@ -58,7 +59,7 @@ const SubMenu = ({ renderMunicipalities }) => {
   // Render the loader while loading is true
   if (loading) {
     return (
-      <Transition visible={subMenuVisible} animation="fade up" duration={600}>
+      <Transition visible={visible} animation="fade up" duration={600}>
         <Segment style={subLoading}>
           <Dimmer active inverted>
             <Loader size="medium">Loading</Loader>
@@ -71,7 +72,7 @@ const SubMenu = ({ renderMunicipalities }) => {
 
   // Render the actual content after the loading is done
   return (
-    subMenuVisible && (
+    visible && (
       <div className="tool-group bg-light" id="toolGroup">
         <Transition visible={subMenuVisible} animation="fade up" duration={600}>
           <Segment style={subMenuStyle}>
@@ -79,7 +80,7 @@ const SubMenu = ({ renderMunicipalities }) => {
             <Divider />
             {renderMunicipalities &&
               renderMunicipalities.map((municipalitie) => (
-                <Message color={getRandomColor()} key={municipalitie.code} >
+                <Message color={getRandomColor()} key={municipalitie.code}>
                   {municipalitie.commune}
                 </Message>
               ))}
