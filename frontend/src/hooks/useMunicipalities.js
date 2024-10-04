@@ -9,7 +9,7 @@ const getMunicipalities = async (
 ) => {
   try {
     const { data: wilayasData } = await axios.get(
-      `http://localhost:3001/wilayas`
+      `https://algeria-wilayas-api.onrender.com/wilayas`
     )
 
     // Find the matching layer based on searchTerm

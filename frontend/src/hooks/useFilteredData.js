@@ -12,7 +12,7 @@ const useFilteredData = (searchTermLower) => {
       setError(null) // Clear any previous errors
       try {
         const { data } = await axios.get(
-          `http://localhost:3001/wilayas`
+          `https://algeria-wilayas-api.onrender.com/wilayas`
         )
 
         const filteredData = data.filter((item) =>

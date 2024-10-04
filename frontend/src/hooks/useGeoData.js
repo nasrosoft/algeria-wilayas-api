@@ -10,7 +10,7 @@ const useGeoData = (imagePath) => {
     const fetchGeoData = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:3001/algeria`
+          `https://algeria-wilayas-api.onrender.com/algeria`
         )
 
         setGeoData(response.data)
