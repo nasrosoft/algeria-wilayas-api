@@ -4,7 +4,7 @@ This project provides an interactive map of Algeria's wilayas with additional fe
 
 ## Demo
 
-The live demo of the application can be found here: [algeria-wilayas-api](https://algeria-wilayas-api.vercel.app/).
+The live demo of the application can be found here: [algeria-wilayas-api](https://nasrosoft.github.io/algeria-wilayas-api/).
 
 ## Features
 
