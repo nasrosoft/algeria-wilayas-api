@@ -34,11 +34,29 @@ To run the project locally:
 
 2. Install dependencies for both frontend and backend:
 
-A. npm install
-Start both frontend and backend servers simultaneously:
-B. npm run dev
+   ```bash
+   npm install
+   ```
 
-3. API Endpoints
-   /algeria: Provides details of wilayas and municipalities.
-   Contributions
-   Feel free to fork the project and submit a pull request.
+   A. npm install
+   Start both frontend and backend servers simultaneously:
+
+   ```bash
+   npm run dev
+   ```
+
+## API Endpoints
+
+- `/algeria`: Provides details of all wilayas and their municipalities.
+
+---
+
+- `/wilayas`: Provides details of each wilaya and their respective municipalities.
+
+---
+
+- `/images/id`: Provides images of each wilaya by its postal code (wilaya ID).
+
+---
+
+Feel free to fork the project and submit a pull request!
