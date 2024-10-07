@@ -51,7 +51,7 @@ To run the project locally:
 
 ---
 
-- `/wilayas`: Provides details of each wilaya and their respective municipalities.
+- `/wilayas/id`: Provides details of each wilaya and their respective municipalities.
 
 ---
 
