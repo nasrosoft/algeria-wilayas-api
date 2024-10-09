@@ -25,7 +25,7 @@ function App() {
   const featureLayers = useRef([])
 
   // State Management
-  const [code, setCode] = useState("08")
+  const [code, setCode] = useState("")
   const [wilayaName, setWilayaName] = useState("")
   const [wilayaTamazight, setWilayaTamazight] = useState("")
   const [flyToPosition, setFlyToPosition] = useState(null)
